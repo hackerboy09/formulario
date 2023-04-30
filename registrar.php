@@ -8,7 +8,8 @@ if (isset($_POST['register'])) {
 	    $email = trim($_POST['email']);
 	    $fechareg = date("d/m/y");
 		$escuela = trim($_POST['escuela']);
-	    $consulta = "INSERT INTO datos(nombre, email, fecha_reg, escuela) VALUES ('$name','$email','$fechareg','$escuela')";
+		$numero = trim($_POST['numero']);
+	    $consulta = "INSERT INTO datos(nombre, email, fecha_reg, escuela, numero) VALUES ('$name','$email','$fechareg','$escuela','$numero')";
 	    $resultado = mysqli_query($conex,$consulta);
 	    if ($resultado) {
 	    	?> 

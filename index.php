@@ -11,6 +11,7 @@
     	<input type="text" name="name" placeholder="Nombre completo">
     	<input type="email" name="email" placeholder="Email">
 		<input type="text" name="escuela" placeholder="Escuela">
+		<input type="text" name="numero" placeholder="Numero Telefonico">
     	<input type="submit" name="register">
     </form>
         <?php 
