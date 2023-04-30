@@ -10,6 +10,7 @@
     	<h1>Registro de residencias</h1>
     	<input type="text" name="name" placeholder="Nombre completo">
     	<input type="email" name="email" placeholder="Email">
+		<input type="text" name="escuela" placeholder="Escuela">
     	<input type="submit" name="register">
     </form>
         <?php 
